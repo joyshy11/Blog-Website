@@ -1,0 +1,17 @@
+<% include partials/header %>
+<h1 style="padding: 0.5% 12.5%">Compose</h1>
+<form action="/compose" method="post" style="padding: 1% 12.5%">
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" name="titlePara" />
+    <label>Post</label>
+    <textarea
+      class="form-control"
+      name="composePara"
+      rows="10"
+      cols="150"
+    ></textarea>
+  </div>
+  <button class="btn btn-primary" type="submit">Publish</button>
+</form>
+<% include partials/footer %>
